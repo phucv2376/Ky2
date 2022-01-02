@@ -4,10 +4,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME"
   },
   "dependencies": {
     "axios": "^0.24.0",
