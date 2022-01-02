@@ -1,0 +1,17 @@
+{
+  "morning": [
+    "https://unsplash.com/photos/G_a9JhmiZFk/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQxMDcyMzkz"
+  ],
+  "noon": [
+    "https://unsplash.com/photos/BDoHXtpZjN8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTN8fG5vb258fDB8MHx8fDE2NDEwNzQ0NjU",
+    "https://images.unsplash.com/photo-1631451172306-a1bc3c4be4a3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+  ],
+  "afternoon": [
+    "https://unsplash.com/photos/G_a9JhmiZFk/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQxMDcyMzkz"
+  ],
+  "night": [
+    "https://wallpapershome.com/images/wallpapers/night-sky-3840x2160-5k-4k-wallpaper-stars-mountains-bridge-new-zealand-547.jpg",
+    "https://images.wallpaperscraft.com/image/single/refueling_night_dark_151920_3840x2160.jpg",
+    "https://images.hdqwalls.com/wallpapers/power-lines-moon-anime-quite-night-4k-pb.jpg"
+  ]
+}
