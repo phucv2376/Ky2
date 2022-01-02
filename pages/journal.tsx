@@ -13,7 +13,7 @@ const Journal: NextPage = () => {
 
   const handleSubmit = (): void => {
     if (process.browser) {
-      const journalLogs = document.getElementById("journalLogs").value;
+      const journalLogs = (document.getElementById("journalLogs") as HTMLInputElement).value;
 	axios.post("https://ky-api.herokuapp.com/Journals", {
 	  date: Date(),
 	  contents: journalLogs,

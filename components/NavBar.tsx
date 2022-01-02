@@ -1,14 +1,16 @@
 import type { NextComponentType } from 'next';
 import styles from '../styles/navBar.module.css';
+import Link from 'next/link';
 
 const NavBar:NextComponentType = () => {
   return (
     <div className={styles.navBar}>
       <ul>
-	<li><a href="/">Home</a></li>
-	<li><a href="/journal">Journal</a></li>
-	<li><a href="../pages/index.tsx">Home</a></li>
-	<li><a href="../pages/index.tsx">Home</a></li>
+	<li><Link href="/"><a>Home</a></Link></li>
+	<li><Link href="/journal"><a>Journal</a></Link></li>
+	<li><Link href="/"><a>Home</a></Link></li>
+	<li><Link href="/"><a>Home</a></Link></li>
+	<li><Link href="/"><a>Home</a></Link></li>
       </ul>
     </div>
   )
