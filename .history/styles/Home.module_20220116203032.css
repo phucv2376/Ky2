@@ -1,0 +1,16 @@
+.bg {
+  position: absolute;
+  z-index: -1;
+  background-image: var(--bgImageUrl);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hello { 
+  font-family: "Brush Script MT", "Brush Script Std", "cursive";
+  color: var(--fg);
+  font-size: 30vh;
+  text-shadow: 2rem 2rem 2rem var(--bg);
+}

@@ -1,0 +1,33 @@
+.body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.bg {
+  position: absolute;
+  z-index: -1;
+  color: linear-gradient(black, white);
+  background-image: var(--bgImageUrl);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  filter: opacity(0.7)
+}
+
+.hello { 
+  font-family: "Brush Script MT", "Brush Script Std", "cursive";
+  font-size: 30vh;
+  padding: 3vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
