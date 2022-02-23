@@ -20,10 +20,39 @@ a {
 
 :root {
   --fga: #262322;
-  --fg: #63372C;
-  --dateHex: #F2E5D7;
-  --bga2: #C97D60;
-  --bga: #FFBCB5;
-  --bg: #F2E5D7;
+  --fg: #63372c;
+  --dateHex: #f2e5d7;
+  --bga2: #c97d60;
+  --bga: #ffbcb5;
+  --bg: #f2e5d7;
   --bgImageUrl: url(../public/sunrise3.jpg);
+}
+
+.MuiPickersStaticWrapper-staticWrapperRoot {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: rgba(255, 255, 255, 255) !important;
+  border-radius: 5px !important;
+}
+.MuiButtonBase-root {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: rgba(255, 255, 255, 255) !important;
+}
+.MuiPickersDay-daySelected {
+  background-color: rgba(255, 188, 181, 0.5) !important;
+}
+.MuiPickersToolbar-toolbar {
+  background-color: rgba(255, 188, 181, 0.5) !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+.MuiPickersBasePicker-pickerViewLandscape {
+  background-color: rgba(255, 188, 181, 0.2) !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-width: 70% !important;
+  height: 100% !important;
+}
+.MuiTypography-colorPrimary {
+  color: rgba(255, 188, 181, 0.5) !important;
 }

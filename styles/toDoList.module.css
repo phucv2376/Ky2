@@ -1,0 +1,21 @@
+.body {
+  height: 100vh;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  background-image: var(--bgImageUrl);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.toDoContainer {
+  height: 100%;
+  grid-template-columns: 23% 30% 24% 23%;
+  grid-template-rows: 85% 15%;
+  display: grid;
+}

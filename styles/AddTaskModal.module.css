@@ -1,0 +1,108 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.addTaskContainer {
+  padding: 3vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  border-radius: 10px;
+  background-color: rgba(242, 229, 215, 0.6);
+  margin: 15vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  height: 65vh;
+  backdrop-filter: blur(7px);
+}
+
+.addTaskHead {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.header {
+  font-size: 4vh;
+  font-weight: 700;
+}
+.closeIcon {
+  margin: 0.3vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 2.5vh;
+  height: 2.5vh;
+  border-radius: 30px;
+}
+.solid {
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  width: 25%;
+  margin-bottom: 3vh;
+}
+
+.label {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.2vh;
+  font-size: 1.5vh;
+}
+.input {
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgba(255, 188, 181, 0.2);
+  color: white;
+  border: none;
+  padding: 1vh;
+  padding-left: 1vw;
+  font-size: 2.5vh;
+  margin-bottom: 5vh;
+}
+.input:focus {
+  background-color: rgba(255, 188, 181, 0.45);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s;
+  outline: none;
+}
+
+.dateTimeContainer {
+  justify-content: space-between;
+  display: flex;
+  border: red solid 1px;
+}
+
+.notesContainer {
+  width: 49%;
+}
+.notes {
+  border-radius: 5px;
+  background-color: rgba(255, 188, 181, 0.2);
+  color: white;
+  border: none;
+  padding: 1vh;
+  padding-left: 1vw;
+  font-size: 1.5vh;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+.notes:focus {
+  background-color: rgba(255, 188, 181, 0.45);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s;
+  outline: none;
+}
+
+.addButton {
+  margin-top: 1vh;
+  margin-right: 1vh;
+  color: rgb(255, 188, 181);
+  border-radius: 100px;
+  min-width: 10%;
+  min-height: 5%;
+  background-color: rgba(75, 181, 67, 0.7);
+  padding: 0.2vh;
+}
+
+.border {
+  border: 2px 2px 2px red;
+}

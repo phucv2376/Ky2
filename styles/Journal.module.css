@@ -1,45 +1,46 @@
 .bg {
-    position: absolute;
-    z-index: -1;
-    background-image: var(--bgImageUrl);
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+  position: absolute;
+  z-index: -1;
+  background-image: var(--bgImageUrl);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .date {
-    font-size: 5vh;
-    margin-top: 3rem;
-    margin-left: 2.5vw;
-    color: var(--dateHex);
-    margin-bottom: 2rem;
-    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.7);
+  font-size: 5vh;
+  margin-top: 3rem;
+  margin-left: 2.5vw;
+  color: var(--dateHex);
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.7);
 }
 
 .logArea {
-    width: 95vw;
-    height: 70vh;
-    border: none;
-    background-color: var(--bg);
-    color: var(--fg);
-    font-size: 2vh;
-    resize: none;
-    outline: none;
-    padding: 30px;
-    border-radius: 3px;
-    box-shadow: 2px 2px 2px var(--bga2);
-    opacity: 0.5;
+  width: 95vw;
+  height: 70vh;
+  border: none;
+  font-size: 2vh;
+  resize: none;
+  outline: none;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 23x;
+  background-color: var(--bga);
+  opacity: 0.2;
 }
 .logArea:focus {
-    transition: opacity 700ms, box-shadow 700ms;
-    box-shadow: 4px 4px 4px var(--bga2);
-    opacity: 0.75;
+  transition: opacity 700ms, box-shadow 700ms;
+  box-shadow: 5px 5px 5px;
+  opacity: 0.5;
+}
+.logAreaContainer {
+  backdrop-filter: blur(25px);
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

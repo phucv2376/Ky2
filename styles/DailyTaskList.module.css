@@ -1,0 +1,53 @@
+.taskListMask {
+  margin: 5%;
+  backdrop-filter: blur(15px);
+  box-shadow: 1px 1px 1px;
+  border-radius: 0.5vh;
+}
+.taskList {
+  height: 100%;
+  padding: 1vh;
+  border-radius: 0.5vh;
+  opacity: 0.3;
+  background-color: var(--bga);
+  color: var(--fga);
+  font-size: 2vh;
+}
+.taskListCurrentMask {
+  margin: 5%;
+  backdrop-filter: blur(15px);
+  box-shadow: 1px 1px 1px;
+  border-radius: 0.5vh;
+  height: 97%;
+  margin: 1vh;
+}
+.taskListCurrent {
+  height: 100%;
+  padding: 1vh;
+  border-radius: 0.5vh;
+  opacity: 0.5;
+  background-color: var(--bga);
+  color: var(--fga);
+  font-size: 4vh;
+  box-shadow: 5px 5px 5px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addButton {
+  margin-top: 1vh;
+  margin-right: 1vh;
+  background-color: rgba(255, 188, 181, 0.5);
+  border-radius: 100px;
+  min-width: 4vh;
+  min-height: 4vh;
+  color: rgb(75, 181, 67);
+}
+
+.solid {
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
+  width: 40%;
+}

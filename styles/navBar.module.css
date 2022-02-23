@@ -1,18 +1,20 @@
 /*styles for ../components/NavBar.tsx */
 
-.navBar > ul {
-    background-color: var(--bg);
-    color: var(--fg);
-    display: flex;
-    list-style: none;
-    gap: 2em;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-left: 3em;
-    opacity: 0.7;
-    font-weight: bold;
+.navBar {
+  backdrop-filter: blur(15px);
 }
-
+.navBar > ul {
+  background-color: var(--bg);
+  color: var(--fg);
+  display: flex;
+  list-style: none;
+  gap: 2em;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 3em;
+  opacity: 0.3;
+  font-weight: bold;
+}
 .navBar > ul > *:hover {
-    color: var(--fg2);
+  color: var(--fg2);
 }
